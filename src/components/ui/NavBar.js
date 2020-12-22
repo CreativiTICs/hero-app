@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Link, NavLink, useHistory } from "react-router-dom";
 import { AuthContext } from "../auth/AuthContext";
+
 import { types } from "../types/types";
 
 export const Navbar = () => {
